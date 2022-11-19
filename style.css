@@ -5,8 +5,8 @@
 	font: caption;
 }
 .button-header {
-
-	
+	color: inherit; 
+  	text-decoration: inherit;
 	display: inline-block;
 }
 .button-header a {
