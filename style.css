@@ -1,0 +1,175 @@
+.header {
+	background: #0B0F17;
+	color: white;
+	display: flex;
+	font: caption;
+}
+.button-header {
+
+	
+	display: inline-block;
+}
+.button-header a {
+	color: inherit; 
+  	text-decoration: inherit;
+
+}
+.button-left a {
+	color: inherit; 
+  	text-decoration: inherit; 
+}
+.button-right a {
+	color: inherit; 
+  	text-decoration: inherit; 
+}
+
+.one {
+    margin: auto;
+
+}
+.two {
+	margin: auto;
+    color: white;
+    padding: 20px 50px 20px 50px ;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.two:hover {
+	background-color: #333E6B;
+    color: white;
+}
+.three {
+	margin: auto;
+    color: white;
+    padding: 20px 50px 20px 50px ;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.three:hover {
+	background-color: #333E6B;
+    color: white;
+}
+.content {
+	height: 90%;
+	display: flex;
+	width: 100%;
+	
+}
+.button-left {
+	height: 89%;
+	width: 80px;
+	color: #8C8E91;
+	display: inline-block;
+  	background: #FDFBF8;
+}
+.button-right {
+	height: 89%;
+	width: 80px;
+	color: #8C8E91;
+	display: inline-block;
+
+  	background: #FDFBF8;
+}
+.center {
+	
+	font: caption;
+	margin-left: auto;
+	margin-right: auto;
+	background: #FDFBF8;
+
+}
+.head-name{
+	width: 100%;
+	text-align: center;
+	background: #FDFBF8;
+	color: #131413;
+	padding: 15px;
+}
+.info-text{
+	color: #131413;
+	margin: 10px;
+}
+.picture{
+
+	border: solid;
+	border-color: #0B0F17;
+
+	width: 99.5%;
+	height: 80%;
+
+}
+body {
+	background: #FDFBF8 ;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.link {
+	width: 100%;
+	height: 100%;
+	display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.link:hover {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	background: #0B0F17;
+    align-items: center;
+    justify-content: center
+}
+
+.dropdown {
+	position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+
+    position: absolute;
+    background-color: #0B0F17;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+	color:F7FAF7;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+	color: #3498DB;
+	background: #333E6B;
+}
+
+.dropbtn {
+	
+    color: white;
+    padding: 20px 50px 20px 50px ;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+	background-color: #333E6B;
+    color: white;
+}
+
+.show {
+	display: block;
+}
