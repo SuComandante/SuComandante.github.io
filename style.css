@@ -60,14 +60,14 @@
 	
 }
 .button-left {
-	height: 89%;
+	height: 100%;
 	width: 5%;
 	color: #8C8E91;
 	display: inline-block;
   	background: #FDFBF8;
 }
 .button-right {
-	height: 89%;
+	height: 100%;
 	width: 5%;
 	color: #8C8E91;
 	display: inline-block;
@@ -77,6 +77,18 @@
 .center {
 	width: 90%;
 	font: caption;
+	font-size: medium;
+
+	background: #FDFBF8;
+
+}
+.center_2 {
+	width: 90%;
+	position: absolute;
+	top: 107%;
+	left: 5%;
+	font: caption;
+	font-size: medium;
 
 	background: #FDFBF8;
 
@@ -84,6 +96,7 @@
 .head-name{
 	width: 100%;
 	text-align: center;
+	font-weight: 700;
 	background: #FDFBF8;
 	color: #131413;
 	padding: 15px;
@@ -101,6 +114,7 @@
 	height: 80%;
 
 }
+
 body {
 	background: #FDFBF8 ;
 }
